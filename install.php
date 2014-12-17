@@ -183,7 +183,7 @@
             if (file_exists('install.php')) {
 
                 try {
-                    //unlink('install.php');
+                    unlink('install.php');
                     error('index.php', 1, 'Usunięto plik instalacji, teraz nastąpi przeniesienie na stronę logowania.');
                 } catch (Excetion $e) {
                     error('index.php', 2, $e->getMessage() . ', teraz nastąpi przeniesienie na stronę logowania');
