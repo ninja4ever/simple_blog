@@ -597,6 +597,21 @@ nav ul.log
     padding-left: 20px;
 
 }
+.del_inactiv {
+    
+    display: block;
+    float: left;
+    height: 32px;
+    margin: 0 auto;
+    margin-right: 12px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 32px;
+    margin-left: 10px;
+
+}
 
 .del_cfg
 {

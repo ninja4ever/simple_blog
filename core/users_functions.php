@@ -76,7 +76,7 @@ class user_functions {
                 }}
 
                 if ($_SESSION['user_data']['iduser'] == $row['user_id'] || $row['rank'] == "user_mainadmin") {
-                    echo '<td style="text-align:center;"> <img src="./image/delinactiv_ico.png" alt="usuń"> </td>';
+                    echo '<td> <img src="./image/delinactiv_ico.png" class="del_inactiv" alt="usuń"> </td>';
                 } else
                 { echo '<td><a class="del_cfg" href="acces_admin.php?f=deluser&&id=' . $row['user_id'] . '" title="Użytkownika: ' . $row['visible_name'] . '"> usuń </a></td>';}
                 echo '</tr>';
