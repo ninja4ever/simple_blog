@@ -264,12 +264,12 @@ class article {
         			<label>Zdjęcia miniaturka dla artykułu:</label><br>
               <label>Proszę wybrać jedno zdjęcie:</label>';
                 echo '<br><br>
-              <input type="radio" name="obraz" value="data/Chrysanthemum.jpg"><img src="data/Chrysanthemum.jpg" width=100 height=100 alt="">
-              <input type="radio" name="obraz" value="data/Desert.jpg"><img src="data/Desert.jpg" width=100 height=100 alt="">
-              <input type="radio" name="obraz" value="data/Hydrangeas.jpg"><img src="data/Hydrangeas.jpg" width=100 height=100 alt=""><br>
-              <input type="radio" name="obraz" value="data/Jellyfish.jpg"><img src="data/Jellyfish.jpg" width=100 height=100 alt="">
-              <input type="radio" name="obraz" value="data/Koala.jpg"><img src="data/Koala.jpg" width=100 height=100 alt="">
-              <input type="radio" name="obraz" value="data/Lighthouse.jpg"><img src="data/Lighthouse.jpg" width=100 height=100 alt=""><br><br>
+              <input type="radio" name="obraz" value="data/1.png"><img src="data/1.png" width=100 height=100 alt="">
+              <input type="radio" name="obraz" value="data/2.png"><img src="data/2.png" width=100 height=100 alt="">
+              <input type="radio" name="obraz" value="data/3.png"><img src="data/3.png" width=100 height=100 alt=""><br>
+              <input type="radio" name="obraz" value="data/4.png"><img src="data/4.png" width=100 height=100 alt="">
+              <input type="radio" name="obraz" value="data/5.png"><img src="data/5.png" width=100 height=100 alt="">
+              <input type="radio" name="obraz" value="data/6.png"><img src="data/6.png" width=100 height=100 alt=""><br><br>
               <label>lub wkleić link do obrazka:</label><br>
                     <input type="text" class="input email" name="obraz_1" placeholder="link do obrazka">';
                 echo '<div style="width:500px;margin-top:50px; padding-bottom:20px;padding-top:20px;float:left;background:#fff;">';
