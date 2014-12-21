@@ -37,8 +37,10 @@ class User {
         $data = $stmt->fetchAll(); 
 
         $count = $stmt->rowCount();
-
-        if ($count) {
+        if($count>1){
+            $_SESSION['info'] = 'Wystąpił błąd.';
+        }
+        elseif ($count===1) {
             session_start();
             $user_data = array();
           
